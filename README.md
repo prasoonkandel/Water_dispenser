@@ -62,7 +62,7 @@ This project is an automated water dispenser that uses an ultrasonic sensor to d
 
 ## Author
 
-*Your Name*
+*Prasoon Kandel*
 
 ---
 
