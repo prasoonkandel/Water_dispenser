@@ -11,7 +11,7 @@ void setup() {
   pinMode(trig_pin, OUTPUT);
   pinMode(echo_pin, INPUT);
   pinMode(relay_pin, OUTPUT);
-  digitalWrite(relay_pin, LOW);  // Ensure relay is OFF at start
+  digitalWrite(relay_pin, LOW); 
 
   Serial.begin(115200);
 }
@@ -25,7 +25,7 @@ void loop() {
   digitalWrite(trig_pin, LOW);
 
   // Read echo time
-  duration = pulseIn(echo_pin, HIGH); // Timeout in 30 ms (max ~5m)
+  duration = pulseIn(echo_pin, HIGH);  (max ~5m)
 
   if (duration == 0) {
     Serial.println("No echo received");
@@ -43,5 +43,5 @@ void loop() {
     }
   }
 
-  delay(500);  // Wait half second before next reading
+  delay(500); 
 }
