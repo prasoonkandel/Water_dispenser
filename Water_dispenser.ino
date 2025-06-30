@@ -1,4 +1,4 @@
-// Auto water pump using ultrasonic sensor and relay
+// Auto water dispenser using ultrasonic sensor and relay and arduino uno
 
 long duration;
 float distance;
