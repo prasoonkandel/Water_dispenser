@@ -37,9 +37,9 @@ void loop() {
 
     // If object is within 30cm, turn on pump
     if (distance <= 15) {
-      digitalWrite(relay_pin, LOW);  // Pump ON
+      digitalWrite(relay_pin, HIGH);  // Pump ON
     } else {
-      digitalWrite(relay_pin, HIGH);   // Pump OFF
+      digitalWrite(relay_pin, LOW);   // Pump OFF
     }
   }
 
